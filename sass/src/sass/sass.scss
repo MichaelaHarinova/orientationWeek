@@ -1,3 +1,4 @@
+@use 'colorChange';
 
   @mixin box-shadow($shadows) {
     -webkit-box-shadow: $shadows;
@@ -20,6 +21,8 @@ body {
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   background-attachment: fixed $padding;
 }
+
+
 
 article {
   display: flex;

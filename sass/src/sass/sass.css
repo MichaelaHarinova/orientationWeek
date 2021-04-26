@@ -1,3 +1,15 @@
+#body:target {
+  color: #ff0000;
+}
+#body:target h1,
+#body:target h2,
+#body:target h6 {
+  color: #a10404;
+}
+#body:target .message, #body:target .success, #body:target .error, #body:target .warning, #body:target code {
+  color: #5f0404;
+}
+
 body {
   font: 100% "Space Mono", monospace;
   color: #2748B3;
