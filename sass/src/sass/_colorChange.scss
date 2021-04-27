@@ -1,12 +1,29 @@
+$padding: 16px;
 
-#body:target{
+#body:target {
   color: #ff0000;
-  h1,
-  h2,
+
+  %h-shared {
+    color: #a10404;
+  }
+
+  h1 {
+    @extend %h-shared;
+    padding:$padding;
+  }
+
+  h2 {
+    @extend %h-shared;
+    padding:$padding;
+  }
+
   h6 {
-    color: #a10404
+    @extend %h-shared;
+    padding: $padding*2;
   }
-  %message-shared, code{
-    color: #5f0404;
-  }
+
+%message-shared, code {
+  color: #8e0202;
+}
+
 }

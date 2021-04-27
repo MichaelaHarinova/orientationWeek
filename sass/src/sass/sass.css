@@ -1,13 +1,20 @@
 #body:target {
   color: #ff0000;
 }
-#body:target h1,
-#body:target h2,
-#body:target h6 {
+#body:target h6, #body:target h2, #body:target h1 {
   color: #a10404;
 }
+#body:target h1 {
+  padding: 16px;
+}
+#body:target h2 {
+  padding: 16px;
+}
+#body:target h6 {
+  padding: 32px;
+}
 #body:target .message, #body:target .success, #body:target .error, #body:target .warning, #body:target code {
-  color: #5f0404;
+  color: #8e0202;
 }
 
 body {
@@ -41,7 +48,7 @@ article section {
   -webkit-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
   -moz-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
   box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
-  padding: 16px;
+  padding: 8px;
 }
 article section .before {
   float: left;
@@ -81,7 +88,7 @@ h6 {
   text-align: center;
   font-size: 2em;
   margin-bottom: 0px;
-  padding: 32px;
+  padding: 16px;
 }
 
 .warning, .error, .success, .message {
